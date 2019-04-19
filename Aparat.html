@@ -1,0 +1,191 @@
+<html>  
+    <head>
+
+        <title>آپارات | ورود و عضویت</title>
+        <link rel="icon" type= "image/png" href="favicon"/>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <style>
+            @font-face{
+                font-family: iransance;
+                src: url("font/Iranian Sans.ttf");
+            }
+            .gaccount { 
+                font-family: iransance;
+                margin: 50px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 100%;
+                color: rgb(221, 75, 57);
+                max-width: 280px;
+                position: relative;
+                display: block;
+                cursor: pointer;
+                border-width: 2px;
+                border-style: solid;
+                border-color: rgb(221, 75, 57);
+                border-radius: 4px;
+                background: rgb(255, 255, 255);
+                padding: 7px;
+            }
+            .enter {
+                font-family: iransance;
+                width: 85%;
+                margin-top: 20px;
+                margin-right: 15px;
+                margin-bottom: 15px;
+                padding: 13px;
+                background-color: #ed145b;
+                color: #fff;
+                font-size: 13px;
+                border-width: 0px;
+                border-style: none;
+                border-color: initial;
+                border-image: initial;
+                outline: none;
+                border-radius: 4px;
+            }
+            #sign {
+                paddin-left: 0px;
+            }
+            .forgot {
+                font-family: iransance;
+                display: block;
+                font-size: 15px;
+                padding-right: 20px;
+                padding-top: 10px;
+                color: rgb(120, 120, 120);
+                font-size: 13px;
+            }
+            .help {
+                padding: 9px 15px;
+                text-decoration : none;
+                padding-right: 0%;
+                color:rgb(5, 163, 232);
+                font-weight: 550;
+            }
+            /*.email:focus {
+                text-align: left;
+                direction: ltr;
+            }*/
+           ::placeholder {
+               direction: rtl;
+               text-align: rtl;
+               padding: 0px;
+           }
+           .email {
+                direction: ltr;
+                font-family: iransance;
+                border: 1px solid #dfe3e9;
+                border-radius: 4px;
+                display: block;
+                margin-bottom: 15px;
+                padding: 9px 15px;
+                width: 85%;
+                margin-right: 20px;
+                position: relative;
+                color: rgb(120, 120, 120);
+                font-size: 12px;
+
+            }
+            #person {
+                position: absolute;
+                top: 305px;
+                left: 400px;
+                font-size: 25px;
+                color:  #d9d9d9;
+            }
+            .title {
+                border-width: 0 0 1px 0;
+                border-style: solid;
+                border-color: #dfe3e9;
+                padding: 25px 10px ;
+            }
+            .description {
+                font-family: iransance;
+                text-align: right;
+                padding-right: 10px;
+                padding-top: 60px ;
+                color: rgb(120, 120, 120);
+                font-size: 13px;
+            }
+            .register {
+                font-family: iransance;
+                text-align: right;
+                padding-right: 20px;
+                color: rgb(120, 120, 120);
+                font-size: 13px;
+            }
+            .Imagetitle {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 45px;
+            }
+            .membership {
+                font-family: iransance;
+                padding: 9px 15px;
+                width: 100%;
+                text-decoration : none;
+                padding-right: 18%;
+                color:rgb(5, 163, 232);
+                font-size: 13px;
+            }
+            i {
+                padding-left: 10%;
+            }
+            span {
+                font-family: iransance;
+                font-size: 12px;   
+            }
+            .Box {
+                border: 1px solid #dfe3e9;
+                border-radius: 4px;
+                background-color: #fff;
+                width: 30%;
+                height: 70%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 35px;
+            }
+            .down {
+                margin-top: 32px;
+            }
+            body {
+                direction: rtl;
+            }
+        </style>
+    </head>
+    <body style="    background: rgb(249, 249, 249);">
+        <div>
+          <img  class= "Imagetitle" src="Capture3.jpg">
+        </div>
+        <div class="Box">
+            <div class= "title">
+                <span class= "description">اگر حساب کاربری ندارید، ثبت نام کنید:</span>
+                <a class= "membership" href="https://google.com"> عضویت  <i  id= "sign" class='fas fa-angle-left' style='font-size:10px;color:rgb(5, 163, 232)'></i>  </a> 
+            </div>
+        <div class= "down">
+            <p class= "register"> اگر در آپارات حساب کاربری دارید، وارد شوید: </p>
+            <input
+            class="email"
+            placeholder="ایمیل، نام کاربری یا شماره موبایل"
+            >
+            <i id= "person" class="material-icons">person</i>
+            </input>
+            <span class= "forgot">
+                اطلاعات ورود را فراموش کردید؟
+            <a class= "help" href="https://google.com" > کمکتون میکنم </a>
+            </span>
+            <button class= "enter">
+                ورود
+            </button>
+            <hr>
+            <button class= "gaccount">
+                +G           با گوگل وارد شوید
+            </button>
+        </div>
+        </div>
+    </body>
+</html>
